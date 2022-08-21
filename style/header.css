@@ -1,0 +1,57 @@
+header{
+    /* display: flex; */
+    position: relative;
+    margin: auto;
+    width: 100%;
+    /* height: 80vh; */
+    background: url(../images/bg-main.jpg) no-repeat cover center;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.navbar{
+    position: relative;
+    font-family: var(--font-main);
+    display: flex;
+    margin: 1rem auto;
+    padding: 0.2rem;
+    align-items: center;
+    /* background-color: var(--color-accent); */
+}
+
+.navbar h1{
+    gap: 0;
+    display: flex;
+    margin-left: auto;
+}
+
+.hero-logo{
+    color: var(--color-accent);
+    font-family: var(--font-sub);
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav{
+    display: flex;
+}
+
+.navbar .links{
+    margin-left: auto;
+    gap: 0.5rem;
+}
+
+.social .social-media{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.navbar .social{
+    margin-left: auto;
+}

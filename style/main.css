@@ -1,0 +1,34 @@
+@import url('http://fonts.cdnfonts.com/css/old-standard-tt-3');
+@import url('http://fonts.cdnfonts.com/css/stardos-stencil');
+@import url('http://fonts.cdnfonts.com/css/pridi');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --font-main: 'Old Standard TT', sans-serif;
+    --font-sub: 'Stardos Stencil', sans-serif;
+    --font-text: 'Pridi', sans-serif;
+
+    --color-primary: #A6866A;
+    --color-secondary: #BFA38A;
+    --color-accent: #593D2D;
+    --color-blank: #F2F2F2;
+    --color-text: #0D0D0D;
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    
+}
+
+@media screen and (min-width: 200px) and (max-width:767px) {
+    
+}

@@ -1,0 +1,45 @@
+.section{
+    position: relative;
+}
+.offers{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.top-draw{
+    margin: 2rem;
+    padding: 1rem;
+}
+.top-draw i{
+    color: var(--color-accent);
+}
+
+.about{
+    position: relative;
+    display: flex;
+    margin: 2rem auto;
+    background-color: var(--color-blank);
+    align-items: center;
+}
+#mount{
+    height: 30rem;
+    width: 36rem;
+}
+.right{
+    margin-left: auto;
+    padding: 2rem;
+}
+.right h3{
+    color: var(--color-primary);
+    font-family: var(--font-sub);
+}
+.right h2{
+    font-weight: lighter;
+    color: var(--color-text);
+}
+.right p{
+    font-family: var(--font-text);
+    margin: 2rem auto;
+}

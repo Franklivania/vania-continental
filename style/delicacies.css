@@ -1,0 +1,47 @@
+#delicacies{
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+
+#gourmet{
+    font-family: var(--font-text);
+    font-size: 1.8rem;
+    margin: 1rem auto;
+    color: var(--color-accent);
+}
+
+#delicacies h2{
+    font-family: var(--font-sub);
+    font-size: 3rem;
+    margin: 1rem auto;
+    color: var(--color-text);
+}
+
+#health{
+    font-family: var(--font-text);
+    margin: 1rem auto;
+    color: var(--color-text);
+}
+
+.row{
+    display: flex;
+    margin: 1rem;
+    width: 100%;
+}
+.column{
+    display: grid;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.column img{
+    height: 15rem;
+    width: 20rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+.column img:hover{
+    opacity: 0.7;
+}

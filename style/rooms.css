@@ -167,5 +167,40 @@
 }
 
 @media screen and (min-width: 200px) and (max-width:767px) {
+    #rooms{
+        position: relative;
+        display: grid;
+        place-items: center;
+    }
+
+    #pick{
+        font-size: 1rem;
+    }
     
+    .word {
+        font-size: 2rem;
+    }
+    
+    #place{
+        font-size: 0.8rem;
+    }
+
+    .beds{
+        width: auto;
+        display: block;
+        margin: 2rem;
+    }
+    
+    .room{
+        display: block;
+        row-gap: 2rem;
+        margin-left: 0.5rem;
+        margin: 2rem auto;
+    }
+    
+    .room img{
+        height: 18rem;
+        width: 100%;
+        border-radius: 0.2rem;
+    }
 }

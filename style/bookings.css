@@ -110,5 +110,31 @@ textarea:focus{
 }
 
 @media screen and (min-width: 200px) and (max-width:767px) {
+    .bookings{
+        display: grid;
+        place-items: center;
+        margin: 2rem auto;
+        background-color: var(--color-blank);
     
+    }
+    
+    #phone{
+        width: 100%;
+    }
+    
+    form{
+        width: 100%;
+        margin-left: 4rem;
+        border-radius: 0.3rem;
+        box-sizing: border-box;
+        color: var(--color-text);
+    }
+    
+    input{
+        width: 70vw;
+    }
+    
+    textarea{
+        width: 70vw;
+    }
 }

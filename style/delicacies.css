@@ -1,7 +1,6 @@
 #delicacies{
     position: relative;
-    display: grid;
-    place-items: center;
+    display: block;
 }
 
 #gourmet{
@@ -63,7 +62,7 @@
     .row{
         display: flex;
         flex-direction: row;
-        margin: auto 2rem;
+        margin: auto 0.5rem;
         width: 100%;
     }
     .column{
@@ -122,5 +121,40 @@
 }
 
 @media screen and (min-width: 200px) and (max-width:767px) {
+    #gourmet{
+        font-family: var(--font-text);
+        font-size: 1rem;
+        margin: 1rem auto;
+        color: var(--color-accent);
+        text-align: center;
+    }
     
+    #delicacies h2{
+        font-family: var(--font-sub);
+        font-size: 2.3rem;
+        margin: 1rem auto;
+        color: var(--color-text);
+        text-align: center;
+    }
+    
+    #health{
+        font-family: var(--font-text);
+        font-size: 0.9rem;
+        margin: 1rem auto;
+        color: var(--color-text);
+        text-align: center;
+    }
+    .row{
+        margin: auto 1rem;
+        width: 100%;
+    }
+    
+    .column img{
+        height: 15rem;
+        width: 20rem;
+        border-radius: 0.5rem;
+        padding: 0.2rem;
+        margin: auto 2rem;
+    }
+
 }

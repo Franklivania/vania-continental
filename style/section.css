@@ -30,4 +30,7 @@
         place-items: center;
         width: 100%;
     }
+    .offers{
+        display: block;
+    }
 }

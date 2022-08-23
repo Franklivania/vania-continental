@@ -145,13 +145,13 @@
         text-align: center;
     }
     .row{
-        margin: auto 1rem;
+        margin: auto 0.6rem;
         width: 100%;
     }
     
     .column img{
         height: 15rem;
-        width: 20rem;
+        width: 18rem;
         border-radius: 0.5rem;
         padding: 0.2rem;
         margin: auto 2rem;

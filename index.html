@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="style/section.css">
     <link rel="stylesheet" href="style/about.css">
     <link rel="stylesheet" href="style/delicacies.css">
+    <link rel="stylesheet" href="style/rooms.css">
+    <link rel="stylesheet" href="style/bookings.css">
+    <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/lightbox.css">
 
     <title>VANIA CONTINENTAL</title>
@@ -185,7 +188,123 @@
 
     <section class="section" id="rooms">
 
+        <div class="word">  
+
+            <p id="pick">Our rooms for your pick</p>
+
+            <h2>Rooms and accomodations </h2>
+
+            <p id="place">place your bookings now, we can fit our budget</p>
+
+        </div>
+
+        <div class="beds">
+        
+            <div class="room">
+                <img src="images/single-room.jpg" alt="">
+
+                <h2>Single Rooms</h2>
+
+                <ul>
+                    <li>One person</li>
+                    <li>Big Space</li>
+                    <li>Room Service</li>
+                </ul>
+
+                <button type="button" id="btn-main">Book Now</button>
+
+            </div>
+
+            <div class="room">
+
+                <img src="images/luxury-room.jpg" alt="">
+
+                <h2>Luxury Room</h2>
+
+                <ul>
+                    <li>Personal lounge</li>
+                    <li>Larger Space</li>
+                    <li>Room Service</li>
+                </ul>
+
+                <button type="button" id="btn-main">Book Now</button>
+
+            </div>
+
+
+            <div class="room">
+
+                <img src="images/royal room.jpeg" alt="">
+
+                <h2>Royal Room</h2>
+
+                <ul>
+                    <li>Personal lounge</li>
+                    <li>Private Range</li>
+                    <li>Room Service</li>
+                </ul>
+
+                <button type="button" id="btn-main">Book Now</button>
+
+            </div>
+        </div>
+
     </section>
+
+    <section class="section" id="bookings">
+        <div class="bookings">
+
+            <img src="images/telephone.jpg" alt="telephone.jpg" id="phone">
+
+            <div id="contact">
+
+                <form action="">
+                    <h1>Contact us</h1>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                    <small class="error"></small>
+
+                    <label for="name">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Your email" required>
+                    <small class="error"></small>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="comments,&nbsp;questions" placeholder="Your message" rows="6"></textarea>
+                    <small class="error"></small>
+
+                    <div class="center">
+                        <input type="submit" value="Send Message" id="submit">
+                        <p id="success"></p>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="socialmedia">
+                <ul class="social-media">
+                    <li><a href="/"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+                    <li><a href="/"><i class="fa-brands fa-twitter fa-2x"></i></a></li>
+                    <li><a href="/"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+                </ul>
+            </div>
+
+            <p class="foot">Copyright © 2022
+                <h1 class="logo">
+                    <span class="hero-logo">
+                        <i class="fa-brands fa-pied-piper-hat"></i>Vania
+                    </span>
+                    Continental
+                </h1>
+            </p>
+        </div>
+    </footer>
 
     <script src="script/lightbox-plus-jquery.js"></script>
     <script src="script/index.js"></script>

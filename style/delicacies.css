@@ -24,17 +24,6 @@
     color: var(--color-text);
 }
 
-.row{
-    display: flex;
-    margin: 1rem;
-    width: 100%;
-}
-.column{
-    display: grid;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-}
 .column img{
     height: 15rem;
     width: 20rem;
@@ -44,4 +33,94 @@
 
 .column img:hover{
     opacity: 0.7;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    #gourmet{
+        font-family: var(--font-text);
+        font-size: 1.2rem;
+        margin: 1rem auto;
+        color: var(--color-accent);
+        text-align: center;
+    }
+    
+    #delicacies h2{
+        font-family: var(--font-sub);
+        font-size: 2.3rem;
+        margin: 1rem auto;
+        color: var(--color-text);
+        text-align: center;
+    }
+    
+    #health{
+        font-family: var(--font-text);
+        margin: 1rem auto;
+        color: var(--color-text);
+        text-align: center;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        margin: auto 2rem;
+        width: 100%;
+    }
+    .column{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+    }
+
+    .column img{
+        height: 10rem;
+        width: 15rem;
+        border-radius: 0.5rem;
+        /* padding: 0.2rem; */
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    #delicacies{
+        position: relative;
+        display: grid;
+        place-items: center;
+    }
+    
+    #gourmet{
+        font-family: var(--font-text);
+        font-size: 1.2rem;
+        margin: 1rem auto;
+        color: var(--color-accent);
+        text-align: center;
+    }
+    
+    #delicacies h2{
+        font-family: var(--font-sub);
+        font-size: 2rem;
+        margin: 1rem auto;
+        color: var(--color-text);
+        text-align: center;
+    }
+    
+    #health{
+        font-family: var(--font-text);
+        margin: 1rem auto;
+        color: var(--color-text);
+        text-align: center;
+    }
+    
+    .column img{
+        height: 10rem;
+        width: 15rem;
+        border-radius: 0.5rem;
+        padding: 0.2rem;
+    }
+    
+}
+
+@media screen and (min-width: 200px) and (max-width:767px) {
+    
 }

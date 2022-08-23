@@ -15,3 +15,19 @@
 .top-draw i{
     color: var(--color-accent);
 }
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    
+}
+
+@media screen and (min-width: 200px) and (max-width:767px) {
+    .section{
+        display: grid;
+        place-items: center;
+        width: 100%;
+    }
+}

@@ -21,6 +21,9 @@
     --color-text: #0D0D0D;
 }
 
+body{
+    scroll-behavior: smooth;
+}
 
 
 @media screen and (min-width: 1024px) {

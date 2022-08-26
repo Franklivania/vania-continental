@@ -203,6 +203,7 @@ nav{
     
     .text-area p{
         margin-top: 3rem;
+        font-family: var(--font-sub);
     }
 }
 
@@ -258,5 +259,6 @@ nav{
     
     .text-area p{
         font-size: 1.2rem;
+        font-family: var(--font-sub);
     }
 }
